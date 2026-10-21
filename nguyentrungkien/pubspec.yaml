@@ -1,0 +1,44 @@
+name: nguyentrungkien
+description: "KidGuard – Ứng dụng quản lý điện thoại trẻ em (đồ án Lập trình di động)."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Gọi Web API + lưu phiên đăng nhập
+  http: ^1.2.2
+  provider: ^6.1.2
+  flutter_secure_storage: ^9.2.2
+  shared_preferences: ^2.3.2
+
+  # Chức năng b – Chia sẻ vị trí
+  geolocator: ^13.0.1
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  battery_plus: ^6.0.3
+
+  # Chức năng e – QR + vân tay
+  mobile_scanner: ^5.2.3
+  qr_flutter: ^4.1.0
+  local_auth: ^2.3.0
+
+  # Chức năng a – Đăng nhập khuôn mặt
+  camera: ^0.11.0+2
+  google_mlkit_face_detection: ^0.11.1
+
+  # Ví thời gian – ảnh minh chứng
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,21 @@
+# .NET
+bin/
+obj/
+.vs/
+*.user
+NguyenTrungKien.API/wwwroot/uploads/*
+!NguyenTrungKien.API/wwwroot/uploads/.gitkeep
+
+# Flutter
+nguyentrungkien/.dart_tool/
+nguyentrungkien/build/
+nguyentrungkien/.flutter-plugins*
+nguyentrungkien/android/.gradle/
+nguyentrungkien/ios/Pods/
+
+# Đường dẫn Flutter SDK riêng của từng máy (run.ps1 tự tạo)
+nguyentrungkien/.flutter_path
+
+# IDE
+.idea/
+*.iml
